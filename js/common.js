@@ -64,7 +64,7 @@ $(function () {
   // Hero Section - Background Parallax
   background_image_parallax($(".tm-parallax"), 0.3, false);
   background_image_parallax_2($("#contact"), 0.8);
-  background_image_parallax_2($("#members"), 0.8);
+  background_image_parallax_2($("#products"), 0.8);
 
   // Handle window resize
   window.addEventListener(
@@ -122,8 +122,8 @@ $(function () {
     gallery: { enabled: true },
   });
 
-  $(".tm-members-carousel").slick({
-    dots: true,
+  $(".tm-products-carousel").slick({
+    dots: false,
     prevArrow: false,
     nextArrow: false,
     infinite: false,

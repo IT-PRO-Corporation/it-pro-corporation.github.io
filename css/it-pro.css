@@ -287,8 +287,22 @@ blockquote {
   color: #37a;
 }
 
-/* Members */
-#members {
+.company {
+  color: #ed5858;
+  font-family: "SCDream6";
+  font-size: 24px;
+  float: right;
+}
+
+.new-tab {
+  float: left;
+  border-radius: 0 !important;
+  width: 30px;
+  height: 30px;
+}
+
+/* Product & Solution */
+#products {
   color: white;
   background-image: url(../img/infinite-loop-02.jpg);
   background-size: cover;
@@ -298,12 +312,12 @@ blockquote {
 }
 
 @media (max-width: 991px) {
-  #members {
+  #products {
     background-image: url(../img/infinite-loop-02-mobile.jpg);
   }
 }
 
-.tm-members-content {
+.tm-products-content {
   position: relative;
   z-index: 100;
 }
@@ -320,7 +334,7 @@ blockquote {
   z-index: 0;
 }
 
-.tm-members-carousel {
+.tm-products-carousel {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -342,6 +356,65 @@ blockquote {
   font-size: 1.1rem;
 }
 
+/* Products Information */
+
+.products-info {
+  display: flex;
+  min-height: 52vh;
+  flex-direction: row;
+  margin: 0;
+  text-align: center;
+}
+
+.company-product {
+  background: #b3b9bd;
+  flex: 1;
+  min-height: 2vh;
+}
+
+.header-text {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10vh;
+  font-family: "SCDream3";
+  font-size: 2rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  background: #c2cacf;
+}
+
+.headerTitle {
+  flex: 1;
+  height: 10vh;
+  background: #3f87b0;
+}
+
+.company-desc {
+  flex: 1;
+  flex-direction: column;
+  vertical-align: middle;
+  line-height: 14vh;
+  font-family: "SCDream4";
+}
+
+.product-content {
+  display: flex;
+  flex-direction: row;
+}
+.product-content > article {
+  flex: 5;
+  min-height: 42vh;
+}
+
+.product-header {
+  height: 10vh;
+  background: #4aa5d9;
+}
+
 /* Work */
 
 .tm-section-desc {
@@ -357,37 +430,6 @@ blockquote {
 
 .tm-gallery-item {
   margin: 0 15px;
-}
-
-.slick-dots {
-  bottom: -65px;
-}
-
-.slick-dots li {
-  margin: 0 13px;
-}
-
-.slick-dots li button:hover:before,
-.slick-dots li button:focus:before,
-.slick-dots li.slick-active button:before {
-  opacity: 1;
-  color: #3ba0dd;
-}
-
-.tm-members-carousel .slick-dots li button:before {
-  color: white;
-  opacity: 0.5;
-}
-
-.tm-members-carousel .slick-dots li button:hover:before,
-.tm-members-carousel .slick-dots li button:focus:before,
-.tm-members-carousel .slick-dots li.slick-active button:before {
-  color: white;
-  opacity: 1;
-}
-
-.slick-dots li button:before {
-  font-size: 18px;
 }
 
 /* Hover Effect */
@@ -710,11 +752,22 @@ p {
     max-width: 350px;
   }
 
-  .slick-dots li {
+  /* .slick-dots li {
     margin: 0 8px;
-  }
+  } */
 
   .tm-gallery-item {
     margin: 0;
   }
+}
+
+.hr-style {
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
 }
