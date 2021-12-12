@@ -150,7 +150,6 @@ $(function () {
   }
 
   $("#dell-second").on("click", function (event) {
-    $("#company-title").html("Dell Technologies");
     $("#company-summarize").html(
       "VxRail 하이퍼 컨버지드 인프라스트럭처 어플라이언스 | Dell Technologies Korea"
     );
@@ -175,31 +174,6 @@ $(function () {
       );
     });
   }
-
-  $("#ibm-second").on("click", function (event) {
-    $("#company-title").html("IBM");
-
-    $("#company-summarize").html(
-      "하이브리드 플래시 스토리지 솔루션 - 대한민국 | IBM"
-    );
-    $("#product-link").prop(
-      "href",
-      "https://www.ibm.com/kr-ko/it-infrastructure/storage/hybrid-storage"
-    );
-  });
-
-  // CISCO
-  $("#cisco").on("click", function (event) {
-    $("#company-title").html("CISCO");
-
-    $("#company-summarize").html(
-      "저장 영역 네트워킹(SAN) 솔루션- 스토리지 네트워킹 - Cisco"
-    );
-    $("#product-link").prop(
-      "href",
-      "https://www.cisco.com/c/ko_kr/products/storage-networking/index.html"
-    );
-  });
 
   // Pop up
   $(".tm-gallery").magnificPopup({

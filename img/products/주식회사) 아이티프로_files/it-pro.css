@@ -382,6 +382,7 @@ blockquote {
   padding-left: 4vh;
   font-size: 1.8rem;
   font-family: "SCDream5";
+  flex-direction: row !important;
 }
 
 #company-title {
@@ -392,6 +393,8 @@ blockquote {
   font-size: 15px;
   line-height: 10vh;
   padding: inherit;
+  display: inline-block;
+  text-align: right !important;
   font-family: "SCDream2";
 }
 
