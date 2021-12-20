@@ -170,7 +170,7 @@ blockquote {
 
 #infinite {
   background-color: #222;
-  background-image: url(../img/infinite-loop-01.jpg);
+  background-image: url(../img/main-back-blur.png);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -304,7 +304,7 @@ blockquote {
 /* Product & Solution */
 #products {
   color: white;
-  background-image: url(../img/infinite-loop-02.jpg);
+  background-image: url(../img/products.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -313,7 +313,7 @@ blockquote {
 
 @media (max-width: 991px) {
   #products {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
+    background-image: url(../img/products.png);
   }
 }
 
@@ -604,7 +604,7 @@ figure.effect-honey:hover h2 i {
 #contact {
   color: white;
   background-color: #001828;
-  background-image: url(../img/infinite-loop-03.jpg);
+  background-image: url(../img/contact.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
