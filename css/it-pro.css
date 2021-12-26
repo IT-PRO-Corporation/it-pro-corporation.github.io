@@ -607,7 +607,7 @@ figure.effect-honey:hover h2 i {
   background-image: url(../img/contact.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 980px;
+  min-height: 1600px;
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
@@ -674,11 +674,8 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer {
-  position: absolute;
-  bottom: 35px;
-  left: 0;
-  right: 0;
-  padding: 0 15px;
+  flex-direction : horizontal;
+  position: relative;
 }
 
 .tm-footer a {

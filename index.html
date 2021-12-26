@@ -11,7 +11,8 @@
 		<link rel="stylesheet" href="magnific-popup/magnific-popup.css" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/it-pro.css" />
-
+		
+		
 		<!-- Font Awesome Icons
     https://fontawesome.com/v5.15/icons?d=gallery&p=2
   -->
@@ -332,7 +333,23 @@
 				<div class="row">
 					<div class="text-center col-12">
 						<h2 class="tm-section-title mb-4">Contact Us</h2>
-						<p class="mb-5">
+						<hr class="hr-style" />
+						<p class="mb-0">
+							오시는 길
+						</p>
+						<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=760242bae718d01d7c35e53c0ed4a543"></script>
+						<script>
+							var container = document.getElementById('map');
+							var options = {
+								center: new kakao.maps.LatLng(36.35959435769109, 127.37891027575509),
+								level: 3
+							};
+
+							var map = new kakao.maps.Map(container, options);
+						</script>
+						<div id="map" style="width:500px;height:400px;"></div>
+						<hr class="hr-style" />
+						<p class="mb-0">
 							◦ 프로는 행동으로 보여주고, 아마추어는 말로 보여준다.<br />
 							◦ 프로는 사람을 소중히 하고, 아마추어는 돈을 소중히 한다.<br />
 							◦ 프로는 남의 말을 잘 들어주고, 아마추어는 자기 이야기만 한다.<br />
@@ -341,47 +358,33 @@
 						</p>
 						<br />
 					</div>
-					<div class="text-center col-12">
-						<h3>오시는 길</h3>
-					</div>
 
-					<div class="col-sm-12 col-md-6">
-						<div class="contact-item">
-							<br /><br />
-							<a rel="nofollow" href="mailto:mail@company.com" class="item-link">
-								<i class="far fa-2x fa-envelope mr-4"></i>
-								<span class="mb-0">mhjung@mail.it-pro.kr</span>
-							</a>
-						</div>
-
-						<div class="contact-item">
-							<a rel="nofollow" href="https://www.google.com/maps" class="item-link">
-								<i class="fas fa-2x fa-map-marker-alt mr-4"></i>
-								<span class="mb-0">회사 오는 길</span>
-							</a>
-						</div>
-
-						<div class="contact-item">
-							<a rel="nofollow" href="tel:01033268090" class="item-link">
-								<i class="fas fa-2x fa-phone-square mr-4"></i>
-								<span class="mb-0">010-3326-8090</span>
-							</a>
-						</div>
-
-						<div class="contact-item">&nbsp;</div>
-					</div>
 				</div>
 				<!-- row ending -->
 			</div>
 			<hr class="hr-style" />
-			<footer class="text-center small tm-footer">
-				<p class="mb-0">
-					Copyright &copy; 2021 IT-PRO
-				</p>
+			<footer class="small tm-footer" style="padding-top:30px;">
+				<div style="float : left; width:33%; padding-left : 30px;">
+					<a href="/" class="navbar-brand">
+						<img src="./resource/itprologo.png" height="100px"/>
+					</a>
+				</div>
+				
+				<div class="text-center" style="float:left; width:33%;">
+					상호 : 주식회사 아이티프로<br> 
+					대표이사 : 정민호 (mhjung@it-pro.kr)<br>
+					사업장 : 35220, 대전광역시 서구 청사로 136, 대전무역회관 12층 1232호<br>
+					전화번호 : 042-482-3079 <br>
+					사업자 등록 번호 : 174-81-02502<br>
+					Copyright &copy; by ITPro Inc. All Right Reserved.
+				</div><div style="float:left; width:33%;"></div>
+				
+				
 			</footer>
 		</section>
-
 		<script src="js/jquery-1.9.1.min.js"></script>
+		
+		
 		<script src="slick/slick.min.js"></script>
 		<script src="magnific-popup/jquery.magnific-popup.min.js"></script>
 		<script src="js/easing.min.js"></script>
