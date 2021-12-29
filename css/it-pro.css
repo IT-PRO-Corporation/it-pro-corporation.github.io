@@ -441,6 +441,32 @@ blockquote {
   flex-direction: row;
 }
 
+
+#image-column-1,
+#image-column-2,
+#image-column-3 {
+	margin:10px;
+	width : 95%;
+	height : 100px;
+}
+
+#product-column-1,
+#product-column-2,
+#product-column-3 {
+	font-family : "SCDream4";
+	font-size : 1.5rem;
+	color : black;
+}
+
+#desc-column-1,
+#desc-column-2,
+#desc-column-3 {
+	font-family : "SCDream2";
+	font-size : 15px;
+	margin : 20px;
+	color : #474b52;
+}
+
 /* Work */
 
 .tm-section-desc {
